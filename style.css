@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, segoe ui, sans-serif;
+}
+
+.Header {
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 16px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.Menu-link {
+    text-decoration: none;
+    transition: .5s;
+    will-change: auto;
+}
+
+.Menu-link:hover {
+    opacity: .6;
+}
+
+
+.Menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.Menu__item {
+    margin-right: 32px;
+}
+
+.Menu__item--title {
+    font-size: 13.5px;
+    margin: 0;
+    color: #555;    
+}
+
+.Form {
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: .25rem;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.Input {
+    outline: 0;
+    border-color: transparent;
+    margin-left: 4px;
+    font-size: 100%;
+    font-family: sans-serif;
+    width: 280px;
+}
+
+
+.Button-item {
+    /* background-color: ; */
+    color: #51AC55;
+    background-color: #fff;
+    border-radius: .25rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: .875rem;
+    padding: 8px 16px;
+    transition: 500ms;
+}
+
+.Button-item:hover {
+    opacity: .6;
+}
+
+div.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.Options-container {
+    margin: 0 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.Options-item {
+    border-bottom-color: rgba(0,0,0,0.2);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-right: 19px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Options--title {
+    margin-bottom: 10px;
+    width: 100%;
+    color: #555;
+}
+
+.Options-icon {
+    margin-right: 10px;
+}
+
+.Book-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.Book--title {
+    margin: 48px 0;
+    font-size: 18px;
+    font-family: ArialMT, "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+    color: #444;
+}
+
+.Chapter-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Chapter {
+    font-family: ArialMT, "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+    color: #444;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.Chapter--title {
+    color: #444;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 17.6px;
+    margin-bottom: 16px;
+}
+
+.Chapter--versiculo {
+    line-height: 2em;
+    font-family: ArialMT, "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+    font-size: 16px;
+    color: #444;
+}
+
+.number {
+    font-size: 14px;
+}
+
+.Copyright {
+    color: #444;
+}
+
+.Link {
+    color: #51AC55;
+}
+
+.Explorer {
+    margin-top: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Explorer-title {
+    color: #555;
+    border-color: rgba(0,0,0,0.2);
+    border-radius: .25rem;
+    height: 40px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
